@@ -1,18 +1,19 @@
-body {
+#main-container {
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h3 {
+  color: silver;
   margin: 10px;
   text-align: center;
   padding: 30px;
 }
 
 #weka {
-  display: block;
   width: 30%;
-  margin-left: auto;
-  margin-right: auto;
   border: solid 10px rgb(85, 174, 247);
   border-radius: 50%;
 }
@@ -20,4 +21,8 @@ h3 {
 .modify-button {
   text-align: center;
   margin: 10px 0;
+}
+
+button {
+  width: 400px;
 }
